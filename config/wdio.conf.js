@@ -109,7 +109,7 @@ exports.config = {
         command: 'appium',
         args: {},
     },
-    port: 4723,
+    port: 4728,
     path: '/wd/hub',
 
     // Framework you want to run your specs with.

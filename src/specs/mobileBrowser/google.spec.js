@@ -1,4 +1,4 @@
-const GooglePage = require('./../../pages/google.page');
+const GooglePage = require('./../../page-object/google.page');
 const googlePage = new GooglePage();
 const assert = require('assert');
 

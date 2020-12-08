@@ -20,6 +20,9 @@
       "error",
       "single"
     ],
+    "parserOptions": {
+      "sourceType": "module"
+    },
     "max-len": [
       "error",
       {
