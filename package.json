@@ -6,6 +6,7 @@
     "ios": "wdio ./config/ios.config.js",
     "android": "wdio ./config/android.config.js",
     "iosBrowser": "wdio ./config/iosBrowser.config.js",
+    "ipadBrowser": "wdio ./config/ipadBrowser.config.js",
     "androidBrowser": "wdio ./config/androidBrowser.config.js",
     "lint": "eslint .",
     "allure": "allure generate ./reports/allure/allure-results && allure open --clean"
