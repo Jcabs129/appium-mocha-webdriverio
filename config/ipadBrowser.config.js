@@ -1,5 +1,5 @@
 const {config} = require('./wdio.conf');
-const iosInfo = require('./ios.info');
+// const iosInfo = require('./ios.info');
 
 // appium capabilities
 config.capabilities = [
@@ -11,8 +11,6 @@ config.capabilities = [
         maxInstances: 1,
         deviceName: 'iPad Pro',
         platformVersion:'13',
-
-
 
         // udid: '2508910B-6792-46C0-B524-CDE58AA84664',
         // // For W3C the appium capabilities need to have an extension prefix
@@ -39,7 +37,6 @@ config.specs = [
     './src/specs/mobileBrowser/**/invalidEmail.spec.js',
     './src/specs/mobileBrowser/**/forgottenPassword.spec.js',
     './src/specs/mobileBrowser/**/mobileLinks.spec.js'
-    // './tests/specs/mobileBrowser/**/*.js'
 ];
 
 

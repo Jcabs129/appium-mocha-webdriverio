@@ -9,12 +9,8 @@ describe('forgot your password page', () => {
   })
     it('naviagte to apple dojo page', () => {
       LoginPage.appleBtn()
-      // LoginPage.loginBtn()
-
     });
     it('naviagte to google dojo page', () => {
       LoginPage.googleBtn()
-      // LoginPage.loginBtn()
-
     });
 });
