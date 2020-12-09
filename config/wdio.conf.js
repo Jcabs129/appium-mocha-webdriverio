@@ -121,6 +121,10 @@ exports.config = {
     framework: 'mocha',
     mochaOpts: {
         ui: 'bdd',
+        compilers: ['js:babel-register'],
+        // require: ['@babel/register', './src/specs/mobileBrowser/dojo.spec.js'],
+        // require: ['@babel/register', './test/helpers/common.js'],
+
         timeout: 60000
     },
     //

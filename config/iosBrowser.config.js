@@ -35,7 +35,8 @@ config.capabilities = [
 ];
 
 config.specs = [
-    './src/specs/mobileBrowser/**/*.js'
+    // './src/specs/mobileBrowser/**/*.js',
+    './src/specs/mobileBrowser/**/dojo.spec.js'
     // './tests/specs/mobileBrowser/**/*.js'
 ];
 

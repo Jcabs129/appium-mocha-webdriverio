@@ -19,3 +19,5 @@ https://github.com/Arjun-Ar91/WebdriverIO-V6-appium-mocha-boilerplate
 http://appium.io/docs/en/writing-running-appium/running-tests/
 
 https://www.npmjs.com/package/assert
+
+https://webdriver.io/docs/babel.html
