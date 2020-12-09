@@ -5,6 +5,8 @@
 
 `npm run iosBrowser`
 
+`npm run ipadBrowser`
+
 
 ## Installation
 

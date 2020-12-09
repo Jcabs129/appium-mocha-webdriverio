@@ -6,10 +6,10 @@ config.capabilities = [
     {
         platformName: 'iOS',
         automationName: 'XCUITest',
-        udid: '2508910B-6792-46C0-B524-CDE58AA84664',
+        udid: 'AF2C8BB9-F2B6-4EE6-9F36-E72CFE8F2879',
         browserName: 'Safari',
         maxInstances: 1,
-        deviceName: 'iPhone 12 mini',
+        deviceName: 'iPad Pro',
         platformVersion:'13',
 
 
@@ -38,7 +38,9 @@ config.specs = [
     // './src/specs/mobileBrowser/**/*.js',
     './src/specs/mobileBrowser/**/invalidEmail.spec.js',
     './src/specs/mobileBrowser/**/forgottenPassword.spec.js',
-    // './src/specs/mobileBrowser/**/mobileLinks.spec.js'
+    './src/specs/mobileBrowser/**/mobileLinks.spec.js'
+    // './tests/specs/mobileBrowser/**/*.js'
 ];
+
 
 exports.config = config;
